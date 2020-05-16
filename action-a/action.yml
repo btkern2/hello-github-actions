@@ -1,11 +1,11 @@
 name: "Hello Actions"
-description: "Great someone"
-author: "autocat@github.com"
+description: "Greet someone"
+author: "octocat@github.com"
 
 inputs:
   MY_NAME:
     description: "Who to greet"
-    require: true
+    required: true
     defualt: "World"
     
   runs:
